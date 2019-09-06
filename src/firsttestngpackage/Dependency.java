@@ -1,4 +1,5 @@
 package firsttestngpackage;
+//My TestNG project
 
 import org.testng.annotations.Test;
 
