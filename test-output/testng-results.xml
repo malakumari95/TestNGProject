@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The browser is launched now]]>
+    </line>
+    <line>
+      <![CDATA[The browser is closed now]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34360" started-at="2019-08-18T07:58:34Z" finished-at="2019-08-18T07:59:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34360" started-at="2019-08-18T07:58:34Z" finished-at="2019-08-18T07:59:08Z">
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:firsttestngpackage.FirstTestNGFile@1bce4f0a]" name="verifyHomepageTitle" duration-ms="34323" started-at="2019-08-18T13:28:34Z" finished-at="2019-08-18T13:29:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched now]]>
+            </line>
+            <line>
+              <![CDATA[The browser is closed now]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

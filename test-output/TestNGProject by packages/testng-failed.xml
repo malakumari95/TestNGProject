@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGProject by packages]">
+  <test name="firsttestngpackage(failed)">
+    <classes>
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <methods>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+      <class name="firsttestngpackage.SecondTestNGFile">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- firsttestngpackage.SecondTestNGFile -->
+      <class name="firsttestngpackage.GoogleTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- firsttestngpackage.GoogleTest -->
+    </classes>
+  </test> <!-- firsttestngpackage(failed) -->
+</suite> <!-- Failed suite [TestNGProject by packages] -->
